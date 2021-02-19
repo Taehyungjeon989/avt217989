@@ -1,0 +1,13 @@
+/******************
+
+defult style rule for Exercises
+
+selector {
+  property: value;
+}
+
+******************/
+
+body {
+  background-color: Gold;
+}
