@@ -1,17 +1,8 @@
-/******************
-
-defult style rule for CSS
-
-selector {
-  property: value;
-}
-
-******************/
-
-body {
-  background-color: Pink;
-}
 * {
-  Margin: 0
+  margin: 0;
   padding: 0;
-  box-sizing:  border-box;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Viaoda libre', cursive;
+}
