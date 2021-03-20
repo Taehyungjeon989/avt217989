@@ -1,0 +1,33 @@
+/****** general styles ******/
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 16px;
+}
+body {
+  background-color: tomato;
+  text-align: center;
+  font-family: 'lato', sans-serif;
+}
+
+/****** layout styles ******/
+header {
+  width: 75vw;
+  margin: 25px auto;
+  background: blue;
+}
+main {
+  width: 75vw;
+  margin: 25px auto;
+  background-color: yellow;
+}
+.col {
+  width: 50px;
+  background-color: red;
+  float: left;
+}
+
+/***** type styles ******/
+h1 {
+  font-size: 4rem;
