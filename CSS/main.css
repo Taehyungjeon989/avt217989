@@ -21,13 +21,24 @@ main {
   width: 75vw;
   margin: 25px auto;
   background-color: yellow;
+  display: flow-root;
 }
 .col {
-  width: 50px;
+  width: 50;
   background-color: red;
   float: left;
 }
 
-/***** type styles ******/
+/****** layout styles ******/
 h1 {
   font-size: 4rem;
+  text-align: left;
+  font-family: 'Space Mono', monospace;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+h2 {
+  font-size: 2rem;
+  text-align: left;
+  font-family: 'Space Mono', monospace;
+}
