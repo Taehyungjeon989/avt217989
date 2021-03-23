@@ -38,6 +38,22 @@ h2 {
   text-align: left;
   font-family: monospace;
 }
+/****** list styles ******/
+li {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  margin-bottom: 10px;
+  text-align: left;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 700;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
 /****** image styles ******/
 img {
   max-width: 100%;
@@ -45,16 +61,29 @@ img {
 
 /****** media requires ******/
 @media screen and (max-width: 900px) {
+  body {
+    background-color: #cccccc;
+    }
+  }
+  .col {
+    width: 50%;
+    float: left;
+    padding: 0 25px;
+    }
+  }
   .col {
     width: 100%;
-    margin-bottom: 50px
-}
-header {
-  width: 90vw;
-}
-main {
-  width:90vw;
-}
-h1 {
-  font-size: 3rem;
-}
+    }
+  }
+  .col {
+    width: 50%;
+    float: left;
+    padding: 0 25px;
+    }
+  }
+  .col {
+    width: 50%;
+    float: left;
+    margin-bottom: 50px;
+    }
+  }
