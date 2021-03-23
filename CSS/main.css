@@ -6,7 +6,7 @@ html {
   font-size: 16px;
 }
 body {
-  background-color: Deeppink;
+  background-color: lightpink;
   font-family: cursive;
 }
 
@@ -46,8 +46,15 @@ img {
 /****** media requires ******/
 @media screen and (max-width: 900px) {
   .col {
-    width: 50%;
-    float: left;
-    padding: 0 25px;
-  }
+    width: 100%;
+    margin-bottom: 50px
+}
+header {
+width: 90vw;
+}
+main {
+width:90vw;
+}
+h1 {
+font-size: 3rem;
 }
