@@ -6,26 +6,22 @@ html {
   font-size: 16px;
 }
 body {
-  background-color: tomato;
-  text-align: center;
-  font-family: 'lato', sans-serif;
+  background-color: Deeppink;
+  font-family: cursive;
 }
 
 /****** layout styles ******/
 header {
   width: 75vw;
   margin: 25px auto;
-  background: blue;
 }
 main {
   width: 75vw;
   margin: 25px auto;
-  background-color: yellow;
   display: flow-root;
 }
 .col {
-  width: 50;
-  background-color: red;
+  width: 50%;
   float: left;
 }
 
@@ -33,12 +29,25 @@ main {
 h1 {
   font-size: 4rem;
   text-align: left;
-  font-family: 'Space Mono', monospace;
+  font-family:  monospace;
   font-weight: 700;
   text-transform: uppercase;
 }
 h2 {
   font-size: 2rem;
   text-align: left;
-  font-family: 'Space Mono', monospace;
+  font-family: monospace;
+}
+/****** image styles ******/
+img {
+  max-width: 100%;
+}
+
+/****** media requires ******/
+@media screen and (max-width: 900px) {
+  .col {
+    width: 50%;
+    float: left;
+    padding: 0 25px;
+  }
 }
