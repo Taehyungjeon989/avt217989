@@ -1,23 +1,103 @@
 .p1 div {
   width: 90px;
   height: 90px;
-  background-color: magenta;
+  background-color: Deeppink;
   float: left;
   margin: -10px;
   opacity: .5;
-  border-right: 80px solid aqua;
+  border-right: 80px solid gold;
 }
 .shape1 {
   width: 90px;
   height: 90px;
-  background-color: green;
+  background-color: pink;
   border-radius: 50%;
   float:left;
 }
 .shape2 {
   width: 100px;
   height: 90px;
-  background-color: red;
+  background-color: Hotpink;
   float: left;
-  margin:
+  margin: -20px;
+}
+.shap3 {
+  Width: 150px;
+  height: 100px;
+  background-color: Magenta;
+  float: left;
+}
+.shape4 {
+  Width: 160px;
+  height: 105px;
+  background-color: Deeppink;
+  float: left;
+  margin: -30px;
+}
+.shape5 {
+  Width: 190px;
+  height: 140px;
+  background-color: gold;
+  border-radius: 50%;
+  float: left;
+  margin: -90px;
+  opacity: .9;
+}
+.shape6 {
+  Width: 180px;
+  height: 120px;
+  background-color: lightpink;
+  float: left;
+  margin: -30px;
+  opacity: .7;
+  transform: rotate(30deg);
+  border-right: 90px dotted aliceblue;
+}
+.shape7 {
+  Width: 180px;
+  height: 120px;
+  background-color: lightblue;
+  border-radius: 80%;
+  float: left;
+  margin: -70px;
+}
+.shape8 {
+  Width: 180px;
+  height: 120px;
+  background-color: lightcyan;
+  border-radius: 50%;
+  float: left;
+  margin: -100px;
+}
+.shape9 {
+  Width: 190px;
+  height: 170px;
+  background-color: lightyellow;
+  border-radius: 80%;
+  float: right;
+}
+.shape10{
+  width: 200px;
+  height: 190px;
+  background-color: seashell;
+  margin: -90px;
+}
+.shape11 {
+  Width: 180px;
+  height: 120px;
+  background-color: lightcyan;
+  float: left;
+}
+.shap12 {
+  Width: 180px;
+  height: 120px;
+  background-color: snow;
+  float: center;
+}
+.shape13 {
+  Width: 180px;
+  height: 120px;
+  background-color: aliceblue;
+  transform: rotate(90deg);
+  float: right;
 }
