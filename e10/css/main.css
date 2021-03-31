@@ -1,0 +1,50 @@
+.shape13 {
+  width: 100px;
+  height: 100px;
+  background-color: pink;
+  float: left;
+}
+.shape14 {
+  width: 100px;
+  height: 100px;
+  background-color: lightpink;
+  float: left;
+}
+header {
+  width: 800px;
+  height: 100px;
+  background-color: hotp;
+  margin-bottom: 25px
+}
+nav {
+  width: 800px;
+  height: 25px;
+  background-color: hotpink;
+  margin-bottom: 25px;
+}
+main {
+  display: flow-root;
+  width: 800px;
+}
+.column {
+  width: 250px;
+  height: 400px;
+  background-color: hotpink;
+  float: left;
+}
+.margins {
+  margin-left: 25px;
+  margin-right: 25px;
+  background-color: hotpink;
+}
+footer {
+  width: 800px;
+  height: 100px;
+  background-color: hotpink;
+  margin-top: 25px
+}
+head {
+  width: 600px;
+  height: 100px;
+  background-color: Gold;
+}
