@@ -3,42 +3,25 @@ body {
   width: 100vh;
   height: 100vh;
 }
-
-.lightiny-container {
+.primary {
+  width: 350px;
+  height: 350px;
+  background-color: yellow;
+  border-radius: 50%;
   position: absolute;
-  left: 50%;
-  top: 50%;
-
-.handle {
-  position: relative;
-  height: 260px;
-  width: 50px;
-  background-color: hotpink;
+  margin:auto;
 }
-
-
-.handle:after {
+.shape-1 {
+  width: 80px;
+  height: 200px;
+  background-color: deeppink;
   position: absolute;
-  left: 168.5%;
-  top: -31.5%;
-  width: 3px;
-  height: 5px;
-  transform: rotate(47deg);
+  top: 30%;
+  left: 30%
 }
-
-.lightiny {
-  position: relative;
-  left: 50%;
-  width: 150px;
-  height: 150px;
-  background-color: white;
-  border-radius: 75px;
-}
-
-
-.lightiny::before {
-  top: 160%;
-  left: 34%;
-  height: 0;
-  width: 30px;
+.main-1 {
+  position:absolute;
+height: 30px;
+  border-bottom: 90px solid hotpink;
+  border-left: 90px solid hotpink;
 }
