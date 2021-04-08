@@ -1,19 +1,25 @@
-.shape13 {
+.container {
   width: 100px;
   height: 100px;
+  float: left;
+  margin-right:
+}
+.shape13 {
+  width: 100px;
+  height: 90px;
   background-color: pink;
   float: left;
 }
 .shape14 {
   width: 100px;
   height: 100px;
-  background-color: lightpink;
+  background-color: hotpink;
   float: left;
 }
 header {
   width: 800px;
   height: 100px;
-  background-color: hotp;
+  background-color: hotpink;
   margin-bottom: 25px
 }
 nav {
@@ -47,4 +53,35 @@ head {
   width: 600px;
   height: 100px;
   background-color: Gold;
+}
+#blog {
+  width: 800px;
+  margin: 100px auto 0;
+}
+#blog header {
+  width: 800px;
+  height: 100px;
+  background-color: hotpink;
+  margin-bottom: 50px;
+}
+.content {
+  width: 650px;
+  height: 500px;
+  margin-right: 25px;
+  margin-bottom: 25px;
+  background-color: hotpink;
+  float: left;
+}
+.avatar {
+  width: 125px;
+  height: 200px;
+  background-color: hotpink;
+  float: left;
+}
+.byline {
+  width: 650px;
+  height: 50px;
+  background-color: hotpink;
+  margin-bottom: 100px;
+  float: left;
 }
